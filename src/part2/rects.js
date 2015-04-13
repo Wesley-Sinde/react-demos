@@ -37,7 +37,7 @@ var Rect = React.createClass({
       background: this.props.color
     };
 
-    return <div className='rect' style={style} ref="root"></div>
+    return (<div className='rect' style={style} ref="root"></div>);
   }
 });
 
@@ -73,7 +73,7 @@ var RectsContainer = React.createClass({
           {this.state.items}
         </div>
       </div>
-    )
+    );
   }
 
 });

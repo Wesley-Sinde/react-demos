@@ -2,7 +2,6 @@
 <html>
 <head lang="en">
   <meta charset="UTF-8">
-  <script src="bower_components/react/react.js"></script>
   <title>React Course - Part 2</title>
   <style>
     .rect {
@@ -16,10 +15,14 @@
 <body>
 <div id="main"></div>
 
+<script src="bower_components/react/react.js"></script>
+<script src="bower_components/reflux/dist/reflux.min.js" ></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/jquery-ui/jquery-ui.js"></script>
 <script src="bower_components/underscore/underscore.js"></script>
-<script src="build/part2/rects.js"></script>
+
+<script src="src/part2/stores/rectangles.js"></script>
+<script src="build/part2/rects_with_reflux.js"></script>
 <script src="build/part2/main.js"></script>
 </body>
 </html>

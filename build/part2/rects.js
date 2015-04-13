@@ -37,7 +37,7 @@ var Rect = React.createClass({displayName: "Rect",
       background: this.props.color
     };
 
-    return React.createElement("div", {className: "rect", style: style, ref: "root"})
+    return (React.createElement("div", {className: "rect", style: style, ref: "root"}));
   }
 });
 
@@ -73,7 +73,7 @@ var RectsContainer = React.createClass({displayName: "RectsContainer",
           this.state.items
         )
       )
-    )
+    );
   }
 
 });
