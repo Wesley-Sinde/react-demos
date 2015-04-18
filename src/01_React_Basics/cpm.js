@@ -20,8 +20,8 @@ var CPM = React.createClass({
     return (
       <div>
         <p>You clicked: {cpm} times</p>
+        <Indicator val={Number(cpm)} />
         <button onClick={this.clicked}>Click Me</button>
-        <Indicator val={cpm} />
       </div>
     )
   }

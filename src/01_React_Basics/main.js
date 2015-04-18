@@ -3,4 +3,5 @@
 
 // React.render(<CPM />, document.getElementById('container'));
 // React.render(<MultiInput />, document.getElementById('container'));
-React.render(<RateIt />, document.getElementById('container'));
+// React.render(<RateIt />, document.getElementById('container'));
+React.render(<Container />, document.getElementById('container'));
