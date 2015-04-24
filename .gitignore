@@ -1,5 +1,6 @@
 node_modules/*
 .module-cache/*
 .node_cache/*
-build/*
 bower_components/
+build/.module-cache
+.DS_Store
